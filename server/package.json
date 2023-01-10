@@ -1,0 +1,52 @@
+{
+  "name": "mern-url-shortener",
+  "version": "1.0.0",
+  "description": "A free tool to shorten a URL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masoudkaarimi/mern-url-shortener.git"
+  },
+  "keywords": [
+    "URL Shortener"
+  ],
+  "author": "Masoud Karimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masoudkaarimi/mern-url-shortener/issues"
+  },
+  "homepage": "https://github.com/masoudkaarimi/mern-url-shortener#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "auto-bind": "^1.2.0",
+    "axios": "^1.2.2",
+    "chalk": "^4.1.2",
+    "compression": "^1.7.4",
+    "config": "^3.3.8",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "http-status": "^1.6.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.3",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.3.4",
+    "node-notifier": "^10.0.1",
+    "pretty-error": "^4.0.0",
+    "stacktracey": "^2.1.8",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
